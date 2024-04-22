@@ -9,7 +9,9 @@
 .header-link:hover{
     color: var(--accent-color);
 }
-
+a{
+    color: var(--white-color);
+}
 .nav-link:hover{
     color: var(--accent-color);
 }
@@ -89,7 +91,8 @@
 
 .gallery-img {
     max-width: 100%;
-    height: auto;
+    object-fit: cover;
+    object-position: center;
     width: 380px;
     height: 250px;
     display: block;
